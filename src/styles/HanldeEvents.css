@@ -1,0 +1,84 @@
+.container-handle {
+  padding: 30px;
+  background-color: #999999;
+}
+
+/* numbers */
+.container-handle .numbers {
+  padding: 20px;
+  margin: 20px 0;
+  display: flex;
+  background-color: rgb(24, 29, 56, .3);
+  border-radius: 15px;
+}
+
+.container-handle .numbers form {
+  width: 10%;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.container-handle .numbers button {
+  padding: 2px 7px;
+  border: 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container-handle .numbers .list-numbs {
+  display: flex;
+  width: 90%;
+}
+
+.list-numbs p {
+  margin: 0 5px;
+  cursor: default;
+}
+
+/* Words */
+.container-handle .words {
+  padding: 20px;
+  margin: 20px 0;
+  display: flex;
+  background-color: rgb(24, 29, 56, .3);
+  border-radius: 15px;
+}
+
+.container-handle .words form {
+  width: 15%;
+  display: block;
+  text-align: center;
+  margin: 0 10px;
+  padding: 10px;
+}
+
+.container-handle .words form input {
+  background-color: #999999;
+  width: 90%;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 3px 5px;
+  margin: 10px auto;
+}
+
+.container-handle .words button {
+  padding: 2px 7px;
+  border: 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container-handle .words .list-words {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  height: 100%;
+  align-items: first baseline;
+  padding: 5px;
+}
+
+.list-words p {
+  margin: 0 5px;
+  cursor: default;
+  font-size: 20px;
+}

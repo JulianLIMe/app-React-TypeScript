@@ -1,0 +1,9 @@
+.container-subscriptors {
+  background-color: rgb(69, 69, 69);
+  display: block;
+  padding: 30px;
+}
+
+.container-subscriptors .container-forms {
+  display: flex;
+}

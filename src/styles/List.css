@@ -1,0 +1,38 @@
+.container-subs {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(45, 45, 99, .2);
+  border-radius: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-subs .container-sub {
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: rgba(116, 116, 116, 0.7);
+  border-radius: 20px;
+}
+
+.container-subs .container-sub img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.container-subs .container-sub h4 {
+  margin: 0 auto;
+  width: 70%;
+  padding-bottom: 5px;
+}
+
+.container-subs .container-sub p {
+  margin: 0 auto;
+  width: 80%;
+  padding-bottom: 3px;
+}

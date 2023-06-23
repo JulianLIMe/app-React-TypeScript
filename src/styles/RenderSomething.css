@@ -1,0 +1,19 @@
+.container-render {
+  padding: 30px 400px;
+  background-color: #454545;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-render div {
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid;
+  border-radius: 10px;
+  cursor: default;
+}
+
+.container-render div:hover{
+  background-color: black;
+  color: #ffff;
+}
